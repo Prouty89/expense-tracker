@@ -1,5 +1,5 @@
 
-@income
+@Income
 Feature: Add Income to your tracker
   I can add income as monetary units to tracker
   

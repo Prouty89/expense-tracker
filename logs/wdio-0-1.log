@@ -1,0 +1,34 @@
+2020-05-04T23:57:29.152Z INFO @wdio/local-runner: Run worker command: run
+2020-05-04T23:57:29.162Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-04T23:57:29.165Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-05-04T23:57:29.824Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-04T23:57:31.848Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-05-04T23:57:31.849Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-05-04T23:57:32.883Z INFO devtools: Connect Puppeteer with browser on port 60120
+2020-05-04T23:57:33.555Z ERROR @wdio/runner: SyntaxError: C:\Users\bkp\desktop\school\study\expense-tracker\client\step_definitions\run-income-steps.js: Unexpected character '​' (9:0)
+
+   7 |   expect(browser).toHaveUrl('https://expense-tracker-4dk85uooq.now.sh/')
+   8 | })
+>  9 | ​
+     | ^
+  10 | When('I fill out the form', async () => {
+  11 |   const pageTitle = $('h1=sign in')
+  12 |   ok(pageTitle)
+    at Parser.raise (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:7017:17)
+    at Parser.getTokenFromCode (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:7725:16)
+    at Parser.nextToken (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:7241:12)
+    at Parser.next (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:7170:10)
+    at Parser.eat (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:7175:12)
+    at Parser.parseCallExpressionArguments (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9416:18)
+    at Parser.parseSubscript (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9346:31)
+    at Parser.parseSubscripts (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9276:19)
+    at Parser.parseExprSubscripts (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9265:17)
+    at Parser.parseMaybeUnary (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9239:21)
+    at Parser.parseExprOps (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9109:23)
+    at Parser.parseMaybeConditional (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9082:23)
+    at Parser.parseMaybeAssign (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:9037:21)
+    at Parser.parseExpression (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:8989:23)
+    at Parser.parseStatementContent (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:10819:23)
+    at Parser.parseStatement (C:\Users\bkp\Desktop\School\study\expense-tracker\client\node_modules\@babel\parser\lib\index.js:10690:17)
+2020-05-04T23:57:33.562Z INFO devtools: COMMAND deleteSession()
+2020-05-04T23:57:33.565Z INFO devtools: RESULT null

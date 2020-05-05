@@ -1,0 +1,11 @@
+2020-05-04T23:57:28.159Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-05-04T23:57:28.162Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-05-04T23:57:28.162Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-05-04T23:57:28.164Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js
+2020-05-04T23:57:28.305Z INFO @wdio/local-runner: Start worker 0-1 with arg: run,wdio.conf.js
+2020-05-04T23:57:29.831Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 0
+2020-05-04T23:57:29.832Z INFO @wdio/cli: [0-0] SKIPPED in chrome - C:\Users\bkp\desktop\school\study\expense-tracker\client\features\run-expense.feature
+2020-05-04T23:57:33.695Z DEBUG @wdio/local-runner: Runner 0-1 finished with exit code 1
+2020-05-04T23:57:33.696Z INFO @wdio/cli:launcher: Run onComplete hook
+2020-05-04T23:57:33.728Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-05-04T23:57:33.980Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
