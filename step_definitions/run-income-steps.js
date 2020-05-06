@@ -5,7 +5,7 @@ Given('I navigate to the login form', async () => {
   await browser.url(`https://expense-tracker-4dk85uooq.now.sh/`)
   element.click()
   expect(browser).toHaveUrl('https://expense-tracker-4dk85uooq.now.sh/')
-})
+});
 ​
 When('I fill out the form', async () => {
   const pageTitle = $('h1=sign in')
@@ -24,5 +24,4 @@ Then('I should see a list of things', () => {
   expect(pageTitle).toBeDisplayed()
   ok(pageTitle)
   ok(h2)
-​
 });
